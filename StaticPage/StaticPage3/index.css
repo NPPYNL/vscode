@@ -1,0 +1,57 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid skyblue;
+}
+
+#form-content{
+    width: 600px;
+    height: 380px;
+    background-color: bisque;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+.form-group{
+    margin: 3px 3px;
+    display: flex;
+}
+
+#btn{
+    display: flex;
+    margin:20px 0;
+    justify-content: center;
+}
+.margin{
+    margin: 0 4px;
+}
+
+#login{
+    background-color:green;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 12px;
+    font-size: 10px;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+span{
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lable-left{
+    width: 120px;
+    text-align: right;
+}
+#area{
+    width: 372px;
+    height: 95px;
+}

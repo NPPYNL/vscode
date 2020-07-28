@@ -1,0 +1,49 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid skyblue;
+}
+
+#form-content{
+    width: 600px;
+    height: 250px;
+    background-color: bisque;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+.form-group{
+    margin: 3px 3px;
+    display: flex;
+}
+
+#btn{
+    margin:20px 0;
+    padding: 0 4px;
+}
+
+#login{
+    background-color:green;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 12px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 5px;
+
+}
+
+span{
+    width: 280px;
+}
+
+.lable-left{
+    width: 280px;
+}
+
+

@@ -1,0 +1,33 @@
+body{
+    background-color:whitesmoke;
+}
+li{
+    list-style: none;
+    line-height: 4;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+}
+#section-left{
+    position: absolute;
+    max-width: 227px;
+    width: 100%;
+    height: 530px;
+    background-color: white;
+    text-align: center;
+}
+
+#section-right{
+    position: absolute;
+    margin-left: 260px;
+    background-color: white;
+    height: 530px;
+    line-height: 1.2;
+    font-size: 12px;
+}
+#div-right{
+    padding: 133px 10px 0 183px;
+}
