@@ -1,0 +1,216 @@
+body{
+    background-color: #f7f7f7;
+}
+/* header */
+header{
+    padding: 0 220px;
+    max-height: 90px;
+    background-color: white;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#img-ul{
+    display: flex;
+}
+
+.logo{
+    min-width: 90px;
+}
+
+.email{
+    width: 42px;
+    height: 29px;
+    margin-top: 20px;
+    margin-right: -40px;
+}
+
+#list{
+    display: flex;
+    list-style: none;
+}
+
+#list > li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* section */
+#personal{
+    padding:0 220px;
+}
+
+#personal-data{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    padding-top:20px;
+    padding-left: 20px;
+}
+
+#head-portrait{
+    width: 80px;
+    height: 62px;
+}
+
+#btn-exit{
+    border: none;
+    color: blue;
+    background-color: white;
+}
+
+#number span{
+    color: gray;
+    padding-right: 10px;
+}
+
+#btn-binding{
+    border: none;
+    color: orange;
+    background-color: white;
+    font-weight: 700;
+}
+
+#safe{
+    margin-bottom: -5px;
+}
+
+/* 公会钱包 */
+#wallet{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+table{
+    width: 100%;
+    border: 1px solid #f2f2f2;
+}
+
+.wallet-head{
+    max-height: 65px;
+    background-color: #f2f2f2;
+    line-height: 65px;
+    padding: 0 10px;
+    margin-top: 4px;
+}
+
+.bigger-font{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.big-font{
+    
+    font-size: 18px;
+}
+
+.small-font{
+    font-size: 12px;
+    color: darkgray;
+}
+
+.tips-？{
+    border-radius: 50%;
+    background-color: #999999;
+    padding: 0 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.tips-faqi{
+    font-size: 12px;
+    background-color: #353535;
+    color: white;
+    border-radius: 30px;
+    padding: 0 15px;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+
+.tips-gt{
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 0 4px;
+    margin-right: 10px;
+}
+.number-right{
+    float: right;
+}
+
+#number-big{
+    font-size: 25px;
+}
+
+.wallet-section{
+    max-height: 57px;
+    line-height: 57px;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #ffffff;
+}
+
+#button-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+#p-a{
+    font-size: 12px;
+}
+
+.button{
+    width: 77px;
+    height: 34px;
+    border-style: none;
+    background-color: #ff9a00;
+    margin-left: 10px;
+    color: white;
+}
+
+.color-red{
+    color: red;
+}
+
+/* 结尾 */
+
+.wallet-footer{
+    background-color: #ffffff;
+}
+
+#nav-a{
+    font-size: 20px;
+    padding: 30px 0 10px;
+    border-bottom: 4px solid #e4e4e4;
+}
+.a-hover{
+    padding:0 20px;
+    font-weight: 700;
+    color: black;
+}
+.a-hover:hover{
+    color: #2facfa;
+}
+
+#div-select{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#no-data{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
