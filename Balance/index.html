@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="../reset.css" type="text/css">
         <link rel="stylesheet" href="index.css" type="text/css">
+        <title>半月结</title>
     </head>
 
     <body>
@@ -12,9 +13,9 @@
                 <div id="img-ul">
                     <img src="2.png" alt="email" class="email">
                     <ul id="list">
-                        <li><a href="#">官网首页</a></li>
-                        <li><a href="#">官方论坛</a></li>
-                        <li><a href="#">使用帮助</a></li>
+                        <li><a href="#" class="a-color">官网首页</a></li>
+                        <li><a href="#" class="a-color">官方论坛</a></li>
+                        <li><a href="#" class="a-color">使用帮助</a></li>
                     </ul>
                 </div>
             </nav>
@@ -24,7 +25,7 @@
             <section id="personal-data">
                 <img src="3.png" alt="个人头像" id="head-portrait">
                 <div id="div-span">
-                    <span>路人1429</span>
+                    <span class="bold">路人1429</span>
                     <button id="btn-exit">[退出]</button>
                     <p id="number">
                         <span>CC：8664443</span>
@@ -37,8 +38,8 @@
             
             <section>
                 <div id="wallet">
-                    <p><strong>公会钱包</strong></p>
-                    <p class="wallet-span">当前位置：首页--个人中心--<strong>公会钱包</strong></p>
+                    <p><span class="bold">公会钱包</span></p>
+                    <p class="wallet-span">当前位置：首页--个人中心--<span class="bold">公会钱包</span></p>
                 </div>
                 <table cellspacing="0">
                     <tr>
@@ -131,8 +132,8 @@
                     <tr>
                         <td class="wallet-head">
                             <span class="bigger-font">过往月份总收入C币</span>
-                            <select name="date" id="date">
-                                <option value="date">2019年8月</option>    
+                            <select name="date" id="date" class="select-wh">
+                                <option value="date">2019年07月</option>    
                             </select>
                             <span class="number-right" id="number-big">0</span>
                         </td>
@@ -153,9 +154,9 @@
                     </tr>
 
                     <tr>
-                        <td class="wallet-section">
-                            <span class="tips-gt">!</span>
-                            <span class="big-font">本月冻结C币</span>
+                        <td class="wallet-section" id="wallet-top">
+                            <span class="tips-gt" id="margin-top">!</span>
+                            <span class="big-font" id="margin-left">本月冻结C币</span>
                             <span class="number-right">0</span>
 
                             <div id="button-right">
@@ -173,14 +174,14 @@
 
                     <div id="div-select">
                         <div>
-                            <select name="date" id="date">
-                                <option value="date">2019年8月</option>    
+                            <select name="dat" id="dat" class="select-wh">
+                                <option value="date">2019年08月</option>    
                             </select>
-                            <select name="cause" id="cause">
+                            <select name="cause" id="cause" class="select-wh">
                                 <option value="cause">全部变化原因</option>    
                             </select>
     
-                            <select name="room" id="room">
+                            <select name="room" id="room" class="select-wh">
                                 <option value="room">全部房间</option>
                             </select>
                         </div>
