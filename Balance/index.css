@@ -1,5 +1,6 @@
 body{
     background-color: #f7f7f7;
+    min-width: 1300px;
 }
 /* header */
 header{
@@ -55,6 +56,11 @@ a{
 #number{
     font-size: 14px;
     margin-top: 10px;
+    display: flex;
+}
+
+#number-margin{
+    margin-top: -8px;
 }
 
 /* section */
@@ -139,12 +145,13 @@ table{
     color: darkgray;
 }
 
-.tips-？{
+.tips-wh{
     border-radius: 50%;
     background-color: #999999;
-    padding: 0 5px;
+    padding: 0 6px;
     color: white;
     font-size: 14px;
+    overflow: hidden;
 }
 
 .tips-faqi{
@@ -179,7 +186,7 @@ table{
     position: absolute;
     height: 10px;
     line-height: 10px;
-    margin-top: 16px;
+    margin-top: 19px;
 }
 
 #margin-left{
@@ -212,6 +219,7 @@ table{
 #p-a{
     font-size: 12px;
     color: #32acf9;
+    cursor: pointer;
 }
 
 .button{
@@ -221,6 +229,7 @@ table{
     background-color: #ff9a00;
     margin-left: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .color-red{
@@ -270,4 +279,14 @@ table{
     font-weight: 700;
     font-size: 25px;
     text-align: center;
+}
+
+/* select去除默认样式 */
+select {
+    appearance:none;  
+    -moz-appearance:none;  
+    -webkit-appearance:none;
+     background: url(5.png) no-repeat scroll right center transparent;
+     padding-right: 14px;
+     background-color: #ffffff;
 }
